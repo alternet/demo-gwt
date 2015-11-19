@@ -1,0 +1,19 @@
+<module rename-to='Countries'>
+    <inherits name="com.google.gwt.user.User" />
+    <inherits name="com.google.gwt.user.theme.standard.Standard" />
+    <inherits name='com.sencha.gxt.ui.GXT' />
+    <inherits name="com.sencha.gxt.theme.neptune.Theme"/>
+    <stylesheet src="reset.css" />
+
+    <generate-with class="com.github.alternet.demo.countries.generator.LatinMapperGenerator">
+        <when-type-assignable class="com.github.alternet.demo.countries.client.LatinMapper"/>
+    </generate-with>
+
+    <!-- fix an unrelated compile error -->
+    <replace-with class="com.sencha.gxt.theme.neptune.client.base.menu.Css3MenuItemAppearance">
+        <when-type-is class="com.sencha.gxt.widget.core.client.menu.Item.ItemAppearance"/>
+    </replace-with>
+
+    <entry-point class="com.github.alternet.demo.countries.client.Countries" />
+
+</module>
