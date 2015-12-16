@@ -51,7 +51,7 @@ public abstract class LatinMapper {
      * @see LatinMapperGenerator
      */
     protected native JSONValue map() /*-{
-        o = {
+        var o = {
               'Á': 'A', // LATIN CAPITAL LETTER A WITH ACUTE
               'Ă': 'A', // LATIN CAPITAL LETTER A WITH BREVE
               // ...
