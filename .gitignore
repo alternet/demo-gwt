@@ -1,10 +1,11 @@
-
 criminal-conspiracy/.classpath
-
 criminal-conspiracy/.project
-
 criminal-conspiracy/.settings/
-
 criminal-conspiracy/src/main/gwt-unitCache/
-
 criminal-conspiracy/target/.generated/
+
+countries-autocompleter/.classpath
+countries-autocompleter/.project
+countries-autocompleter/.settings/
+countries-autocompleter/src/main/gwt-unitCache/
+countries-autocompleter/target/.generated/
